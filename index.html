@@ -9,7 +9,7 @@
     <!-- Favicon Link -->
     <link rel="icon" type="image/x-icon" href="assets/concept.png">
 
-    <!-- FontAwesome Link -->
+    <!-- Font Awesome Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 
     <!-- Google Font -->
@@ -47,7 +47,8 @@
         <div class="navbar bg-base-100 mt-5">
             <div class="navbar-start">
 
-                <i class="fa-solid fa-arrow-right bg-[rgb(171,239,95)] -rotate-45 p-2 rounded-full me-2"></i>
+                <i
+                    class="fa-solid fa-arrow-right bg-[rgb(171,239,95)] flex items-center justify-center h-7 w-7 -rotate-45 p-2 rounded-full me-2"></i>
                 <a href="" class="text-3xl font-extrabold">Rinterio</a>
 
             </div>
@@ -85,7 +86,7 @@
                     class="fa-solid fa-cart-shopping mx-4 text-center border-gray-500 shadow-lg text-slate-600 rounded-full p-3"></i>
 
                 <a class="text-2xl font-bold rounded-full px-5 py-3 bg-[rgb(171,239,95)]">Book Consult <i
-                        class="fa-solid fa-arrow-right -rotate-45 ms-1 bg-[rgb(14,13,13)] text-slate-100 rounded-full p-2"></i></a>
+                        class="fa-solid fa-arrow-right  -rotate-45 ms-1 bg-[rgb(14,13,13)] text-slate-100 rounded-full p-2"></i></a>
             </div>
         </div>
         <!-- Navbar Section  -->
@@ -125,13 +126,13 @@
     <!-- Main Section Start -->
     <main>
         <!-- Design Section -->
-        <section class="container px-4 lg:px-0 mx-auto mt-36 about-background">
+        <section class="mx-auto mt-36 about-background">
 
             <!-- About Section -->
             <div class="flex items-center">
 
                 <!-- Left Section  -->
-                <div class="p-12 w-3/4">
+                <div class="p-20 w-3/4">
 
                     <p class="rounded-full bg-[#fff] px-2 py-1 w-32 text-center"><i
                             class="fa-solid fa-arrow-right me-2"></i>About Us</p>
@@ -186,15 +187,14 @@
                 <span class="rounded-full bg-[#fff] px-4 py-1"><i class="fa-solid fa-arrow-right me-2"></i>How we
                     works</span>
 
-                <h2 class="mt-2 text-[42px] leading-tight font-extrabold">Our Works Process
-                </h2>
+                <h2 class="mt-2 text-[42px] leading-tight font-extrabold">Our Works Process</h2>
 
-                <p class="mt-2 w-1/2 text-center">Defining your organization's work processes can be a great way to
-                    learn more about how
-                    the company's employees create value.</p>
+                <p class="mt-2 lg:w-1/2 w-3/4 text-center">Defining your organization's work processes can be a great
+                    way to
+                    learn more about how the company's employees create value.</p>
             </div>
 
-            <div class="grid grid-cols-4 gap-4 p-20">
+            <div class="grid lg:grid-cols-4 grid-cols-1 gap-4 lg:p-20 p-11">
 
                 <!-- Item-1 -->
                 <div class="bg-[rgb(231,193,211)] p-10 rounded-2xl">
@@ -203,6 +203,7 @@
                     <p>A concept is a thought or idea. If you're redecorating your bedroom, you might want to start with
                         a concept</p>
                 </div>
+
                 <!-- Item-2 -->
                 <div class="bg-[rgb(239,218,110)] p-10 rounded-2xl">
                     <img src="assets/flow-chart.png" alt="">
@@ -210,6 +211,7 @@
                     <p>A flowchart is a diagram that depicts a process, system or computer algorithm.They are widely
                         used in multiple ways</p>
                 </div>
+
                 <!-- Item-3 -->
                 <div class="bg-[rgb(164,218,195)] p-10 rounded-2xl">
                     <img src="assets/vision.png" alt="">
@@ -217,6 +219,7 @@
                     <p>Your vision of a future situation or society is what you imagine or hope it would be like, if
                         things the way they are now.</p>
                 </div>
+
                 <!-- Item-4 -->
                 <div class="bg-[rgb(119,170,234)] p-10 rounded-2xl">
                     <img src="assets/budget-planning.png" alt="">
@@ -230,11 +233,89 @@
 
         </section>
         <!-- Design Section -->
+
+        <!-- Connect Section -->
+        <section class="pb-20 pt-2 bg-[url('assets/bg.jpg')] bg-no-repeat bg-cover">
+            <div class="flex items-center flex-col mt-20">
+                <span class="rounded-full bg-[rgba(171,239,95,0.4)] px-4 py-1"><i
+                        class="fa-solid fa-arrow-right me-2"></i>Let's Connect</span>
+
+                <h2 class="mt-2 text-[42px] leading-tight font-extrabold">Let’s Discuss Next Project</h2>
+
+                <p class="mt-2 lg:w-1/2 w-full text-center">Connectivity is critical to your business. Don't trust it to
+                    just anyone. Fill out the form below and we'll be in touch to set up a consultation.</p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
+                <input type="text" placeholder="First Name*"
+                    class="input input-bordered w-full max-w-2xl lg:max-w-xs rounded-full" />
+                <input type="text" placeholder="Last Name*"
+                    class="input input-bordered w-full max-w-2xl lg:max-w-xs rounded-full" />
+            </div>
+
+
+            <div class="flex justify-center sm:flex-row flex-col items-center gap-4 mt-5">
+                <input type="text" placeholder="Phone Number*"
+                    class="input input-bordered w-full max-w-2xl lg:max-w-xs rounded-full" />
+                <input type="email" placeholder="Email Address*"
+                    class="input input-bordered w-full max-w-2xl lg:max-w-xs rounded-full" />
+            </div>
+
+            <div class="flex justify-center sm:flex-row flex-col items-center mt-5">
+                <textarea placeholder="Write something here"
+                    class="textarea textarea-bordered rounded-3xl h-52 textarea-lg w-full max-w-2xl"></textarea>
+            </div>
+
+            <div class="flex justify-center mt-5">
+                <button
+                    class="flex items-center justify-center w-full bg-[rgb(171,239,95)] text-lg font-semibold max-w-2xl rounded-full p-2">
+                    Send Mail
+                    <i
+                        class="fa-solid fa-arrow-right bg-[#0f0f0f] text-[#fff] -rotate-45 w-7 h-7 flex items-center justify-center rounded-full ms-2"></i>
+                </button>
+            </div>
+
+
+        </section>
+        <!-- Connect Section  -->
     </main>
     <!-- Main Section End -->
 
     <!-- Footer Section Start -->
-    <footer>
+    <footer class="bg-[#0a0a0a] text-[#fff] p-16">
+
+        <div class="flex flex-col items-center">
+
+            <div class="flex">
+
+                <i class="fa-solid fa-arrow-right bg-[rgb(171,239,95)] flex items-center justify-center h-7 w-7 -rotate-45 rounded-full me-2"></i>
+                <a href="" class="text-3xl font-extrabold">Rinterio</a>
+
+            </div>
+
+            <div class="mt-8 lg:w-1/2 w-full text-center">
+                <p class="text-zinc-600">Design Council will use the information provided to email you our regular newsletter. In addition, we
+                    may email you information on industry updates,</p>
+            </div>
+
+            <div class="my-7">
+                <ul class="flex items-center justify-between text-neutral-300">
+                    <li class="mx-5 lg:mx-10"><a href="">Home</a></li>
+                    <li class="mx-5 lg:mx-10"><a href="">Services</a></li>
+                    <li class="mx-5 lg:mx-10"><a href="">Portfolio</a></li>
+                    <li class="mx-5 lg:mx-10"><a href="">Blogs</a></li>
+                    <li class="mx-5 lg:mx-10"><a href="">ContactUs</a></li>
+                </ul>
+            </div>
+
+            <div class="mt-4 flex justify-center">
+                <a class="flex items-center text-xl font-bold rounded-full px-5 py-3 text-[#080808] bg-[rgb(171,239,95)]"> Book Consult
+                    <i class="fa-solid fa-arrow-right h-8 w-8 -rotate-45 ms-2 bg-[rgb(14,13,13)] text-slate-100 rounded-full flex items-center justify-center p-4"></i>
+                </a>
+            </div>
+            
+
+        </div>
 
     </footer>
     <!-- Footer Section End -->
