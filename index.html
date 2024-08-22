@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -25,11 +25,20 @@
         .manrope {
             font-family: "Manrope", sans-serif;
         }
+
+        .custom-background {
+            background: linear-gradient(0deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+        }
+
+        .about-background {
+            background: rgba(238, 234, 234, 0.5);
+        }
     </style>
+
 
 </head>
 
-<body class="manrope">
+<body class="manrope custom-background">
 
     <!-- Header Section Start -->
     <header class="container px-4 lg:px-0 mx-auto">
@@ -88,10 +97,12 @@
             </div>
             <div class="flex flex-col text-center">
 
-                <h1 class="lg:text-[64px] text-[30px] font-[800] leading-tight mb-4">Keeping your designs fresh can get tricky when you
+                <h1 class="lg:text-[64px] text-[30px] font-[800] leading-tight mb-4">Keeping your designs fresh can get
+                    tricky when you
                     get time.</h1>
 
-                <p class="lg:w-3/4 w-full mx-auto text-[16px] font-[500] text-[rgb(73,73,73)] mb-7">Author Mary Stribley shares
+                <p class="lg:w-3/4 w-full mx-auto text-[16px] font-[500] text-[rgb(73,73,73)] mb-7">Author Mary Stribley
+                    shares
                     tips for varying your designs so you can create unique looks without draining all your time and
                     brain power. We especially like how Mary shares shortcuts for repurposing elements of one design to
                     create something that looks entirely new</p>
@@ -113,7 +124,112 @@
 
     <!-- Main Section Start -->
     <main>
+        <!-- Design Section -->
+        <section class="container px-4 lg:px-0 mx-auto mt-36 about-background">
 
+            <!-- About Section -->
+            <div class="flex items-center">
+
+                <!-- Left Section  -->
+                <div class="p-12 w-3/4">
+
+                    <p class="rounded-full bg-[#fff] px-2 py-1 w-32 text-center"><i
+                            class="fa-solid fa-arrow-right me-2"></i>About Us</p>
+
+                    <h2 class="mt-4 text-[42px] leading-tight font-extrabold w-3/4">We design thoughtful,liveable spaces
+                    </h2>
+
+                    <p class="w-3/4 mt-6"> We specialize in crafting spaces that are both beautifully designed and
+                        effortlessly livable.
+                        Our approach is rooted in the belief that great design should enhance everyday life, blending
+                        aesthetic appeal with practical functionality.</p>
+
+                    <div class="flex items-center mt-6 bg-[#fff] p-6 w-3/4 rounded-xl">
+
+                        <div class="me-8">
+                            <img src="assets/commercial.png" alt="">
+                        </div>
+
+                        <div>
+                            <h4 class="mb-2 text-lg font-bold">Commercial</h4>
+                            <p>We understand that commercial spaces must serve both operational needs and leave a
+                                lasting impression.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="flex items-center mt-6 bg-[#fff] p-6 w-3/4 rounded-xl">
+
+                        <div class="me-8">
+                            <img src="assets/residential.png" alt="">
+                        </div>
+
+                        <div>
+                            <h4 class="mb-2 text-lg font-bold">Residential</h4>
+                            <p>we create residential spaces that blend elegant design with unparalleled comfort to our
+                                commitment.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Section -->
+                <div class="w-1/2">
+                    <img src="assets/Rectangle.png" class="w-[500px]" alt="">
+                </div>
+            </div>
+            <!-- About Section -->
+
+            <!-- Work Process Section -->
+            <div class="flex items-center flex-col mt-20">
+                <span class="rounded-full bg-[#fff] px-4 py-1"><i class="fa-solid fa-arrow-right me-2"></i>How we
+                    works</span>
+
+                <h2 class="mt-2 text-[42px] leading-tight font-extrabold">Our Works Process
+                </h2>
+
+                <p class="mt-2 w-1/2 text-center">Defining your organization's work processes can be a great way to
+                    learn more about how
+                    the company's employees create value.</p>
+            </div>
+
+            <div class="grid grid-cols-4 gap-4 p-20">
+
+                <!-- Item-1 -->
+                <div class="bg-[rgb(231,193,211)] p-10 rounded-2xl">
+                    <img src="assets/concept.png" alt="">
+                    <h4 class="text-lg font-extrabold py-2">Concept</h4>
+                    <p>A concept is a thought or idea. If you're redecorating your bedroom, you might want to start with
+                        a concept</p>
+                </div>
+                <!-- Item-2 -->
+                <div class="bg-[rgb(239,218,110)] p-10 rounded-2xl">
+                    <img src="assets/flow-chart.png" alt="">
+                    <h4 class="text-lg font-extrabold py-2">Flow Chart</h4>
+                    <p>A flowchart is a diagram that depicts a process, system or computer algorithm.They are widely
+                        used in multiple ways</p>
+                </div>
+                <!-- Item-3 -->
+                <div class="bg-[rgb(164,218,195)] p-10 rounded-2xl">
+                    <img src="assets/vision.png" alt="">
+                    <h4 class="text-lg font-extrabold py-2">Vision</h4>
+                    <p>Your vision of a future situation or society is what you imagine or hope it would be like, if
+                        things the way they are now.</p>
+                </div>
+                <!-- Item-4 -->
+                <div class="bg-[rgb(119,170,234)] p-10 rounded-2xl">
+                    <img src="assets/budget-planning.png" alt="">
+                    <h4 class="text-lg font-extrabold py-2">Budget & Planning</h4>
+                    <p>Planning provides a framework for a business' financial objectives — typically for the next three
+                        to five years.</p>
+                </div>
+
+            </div>
+            <!-- Work Process Section -->
+
+        </section>
+        <!-- Design Section -->
     </main>
     <!-- Main Section End -->
 
