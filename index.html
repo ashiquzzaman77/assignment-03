@@ -61,33 +61,42 @@
                     <li class="text-lg font-medium"><a>ContactUs</a></li>
                 </ul>
             </div>
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
-                    </svg>
+
+
+            <div class="lg:flex items-center justify-end navbar-end">
+
+                <div class="hidden">
+                    <i
+                        class="fa-solid fa-magnifying-glass text-center border-gray-500 shadow-lg text-slate-600 rounded-full p-3"></i>
+
+                    <i
+                        class="fa-solid fa-cart-shopping mx-4 text-center border-gray-500 shadow-lg text-slate-600 rounded-full p-3"></i>
+
+                    <a class="text-xl font-bold rounded-full px-5 py-3 bg-[rgb(171,239,95)]">
+                        Book Consult
+                        <i
+                            class="fa-solid fa-arrow-right -rotate-45 ms-1 bg-[rgb(14,13,13)] text-slate-100 rounded-full p-2"></i>
+                    </a>
                 </div>
-                <ul tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li class="text-lg font-medium"><a>Home</a></li>
-                    <li class="text-lg font-medium"><a>Services</a></li>
-                    <li class="text-lg font-medium"><a>Portfolio</a></li>
-                    <li class="text-lg font-medium"><a>Blogs</a></li>
-                    <li class="text-lg font-medium"><a>ContactUs</a></li>
-                </ul>
-            </div>
-            <div class="navbar-end hidden lg:flex items-center">
-                <i
-                    class="fa-solid fa-magnifying-glass text-center border-gray-500 shadow-lg text-slate-600 rounded-full p-3"></i>
 
-                <i
-                    class="fa-solid fa-cart-shopping mx-4 text-center border-gray-500 shadow-lg text-slate-600 rounded-full p-3"></i>
+                <div class="dropdown flex justify-end lg:hidden">
 
-                <a class="text-2xl font-bold rounded-full px-5 py-3 bg-[rgb(171,239,95)]">Book Consult <i
-                        class="fa-solid fa-arrow-right  -rotate-45 ms-1 bg-[rgb(14,13,13)] text-slate-100 rounded-full p-2"></i></a>
+                    <div tabindex="0" role="button" class="btn btn-ghost bg-[#fffefe] rounded-full shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+
+                </div>
+
             </div>
+
+
+
+
+
         </div>
         <!-- Navbar Section  -->
 
@@ -337,7 +346,8 @@
                     <span class="rounded-full bg-[rgba(171,239,95,0.4)] px-4 py-1"><i
                             class="fa-solid fa-arrow-right me-2"></i>Let's Connect</span>
 
-                    <h2 class="mt-2 text-[42px] leading-tight text-center font-extrabold">Let’s Discuss Next Project</h2>
+                    <h2 class="mt-2 text-[42px] leading-tight text-center font-extrabold">Let’s Discuss Next Project
+                    </h2>
 
                     <p class="mt-2 lg:w-1/2 w-full text-center">Connectivity is critical to your business. Don't trust
                         it to
